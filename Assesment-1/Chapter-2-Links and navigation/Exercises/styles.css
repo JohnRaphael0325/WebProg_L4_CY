@@ -1,0 +1,76 @@
+/* Body Styling */
+body {
+    font-family: "Arial", sans-serif; /* Simple, clean font */
+    background-color: #121212; /* Dark background */
+    color: #f4f4f4; /* Light gray text */
+    line-height: 1.6; /* Makes text more readable */
+}
+
+/* Navigation Bar */
+nav {
+    background: #222; /* Dark background for the navbar */
+    padding: 15px; /* Adds space around the navbar items */
+    text-align: center; /* Centers the navbar links */
+}
+
+nav ul li {
+    display: inline; /* Makes the list items appear side by side */
+    margin: 0 15px; /* Adds space between the items */
+}
+
+nav ul li a {
+    color: orange; /* Orange text for the links */
+    text-decoration: none; /* Removes underlines from the links */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Header Section */
+header {
+    text-align: center; /* Centers the header text */
+    padding: 60px 20px; /* Adds padding for space around the header */
+    background-color: #ff7800; /* Bright orange background for the header */
+    color: black; /* Black text */
+}
+
+header h1 {
+    font-size: 3rem; /* Big font size for the title */
+    text-transform: uppercase; /* Makes the title uppercase */
+}
+
+/* Sections */
+section {
+    padding: 50px 20px; /* Adds padding around each section */
+}
+
+h2 {
+    color: orange; /* Orange text for subheadings */
+    font-size: 2rem; /* Font size for subheadings */
+    text-transform: uppercase; /* Makes subheading text uppercase */
+    border-bottom: 2px solid orange; /* Underlines subheadings */
+}
+
+/* List Styling */
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes left padding */
+}
+
+li {
+    font-size: 1.1rem; /* Makes the list items slightly larger */
+    margin-bottom: 10px; /* Adds space below each list item */
+}
+
+/* Button Styling */
+.button {
+    display: inline-block; /* Makes the button inline with other elements */
+    padding: 10px 20px; /* Adds padding inside the button */
+    background: orange; /* Orange background for the button */
+    color: black; /* Black text color */
+    font-weight: bold; /* Bold button text */
+    text-transform: uppercase; /* Uppercase text for the button */
+    text-decoration: none; /* Removes underline from button */
+}
+.button:hover {
+    background: #ff4500; /* Changes the button background when hovered */
+    color: white; /* Changes text to white on hover */
+}

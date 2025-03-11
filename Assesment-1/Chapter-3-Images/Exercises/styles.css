@@ -1,0 +1,61 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font to Arial or a similar sans-serif font */
+    background-color: #f4f4f4; /* Sets the background color of the page */
+    text-align: center; /* Centers the text within the body */
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding around the body */
+}
+
+/* Header styling */
+header {
+    background-color: #555; /* Sets the background color of the header */
+    color: white; /* Sets the text color of the header to white */
+    padding: 20px 0; /* Adds padding on the top and bottom of the header */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Sets the font size of the header's main title */
+}
+
+/* Section styling */
+section {
+    display: flex; /* Uses Flexbox to align the content */
+    flex-wrap: wrap; /* Allows child elements (like images) to wrap onto the next line */
+    justify-content: center; /* Centers the content horizontally */
+    padding: 20px; /* Adds padding inside the section */
+}
+
+/* Image container styling */
+.image-container {
+    width: 600px; /* Sets the width of each image container */
+    margin: 15px; /* Adds margin around the image container */
+    border: 3px solid #555; /* Adds a solid border with color #555 around each image container */
+    padding: 10px; /* Adds padding inside the image container */
+    background-color: #fff; /* Sets the background color of the container to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the container */
+}
+
+/* Image styling */
+.image-container img {
+    width: 100%; /* Makes the image take up the full width of the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block; /* Removes extra space below the image */
+    transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect when the image is transformed */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Increases the size of the image slightly when hovered */
+}
+
+/* CSS filters to adjust the appearance of all images */
+.image-container img {
+    filter: brightness(90%) contrast(120%) grayscale(30%); /* Adjusts brightness, contrast, and grayscale effect on the image */
+}
+
+/* License text styling */
+.license {
+    font-size: 0.9rem; /* Sets the font size of the license text */
+    color: #333; /* Sets the text color of the license text */
+    margin-top: 10px; /* Adds space above the license text */
+}
