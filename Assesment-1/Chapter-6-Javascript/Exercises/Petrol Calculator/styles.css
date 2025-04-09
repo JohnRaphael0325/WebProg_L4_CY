@@ -1,0 +1,78 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif; /* Set the font family to Arial */
+    background-color: #ddfcf7; /* Set the background color to a light blue */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Banner style for the title */
+  .banner {
+    background-color: #007bff; /* Set background color to blue */
+    color: white; /* Set text color to white */
+    padding: 40px 0; /* Add padding at the top and bottom */
+    text-align: center; /* Center-align the text */
+    font-size: 36px; /* Set font size to 36px */
+    font-weight: bold; /* Make the text bold */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow effect */
+  }
+  
+  /* Style for the calculator box */
+  .calculator {
+    background-color: white; /* Set background color to white */
+    padding: 30px; /* Add padding inside the box */
+    border-radius: 12px; /* Round the corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow effect around the box */
+    text-align: left; /* Align the text to the left */
+    width: 100%; /* Make the width responsive */
+    max-width: 400px; /* Limit the width to 400px on large screens */
+    margin: 40px auto; /* Center the box and add space at the top */
+  }
+  
+  /* Style for the labels and inputs */
+  label {
+    font-size: 18px; /* Set font size for labels */
+    margin-bottom: 8px; /* Add space below the label */
+    display: block; /* Make the label occupy the full width */
+  }
+  
+  input {
+    width: 100%; /* Make inputs take full width */
+    padding: 12px; /* Add padding inside the input */
+    margin: 12px 0; /* Add space between input fields */
+    font-size: 16px; /* Set font size for the inputs */
+    border: 2px solid #ccc; /* Set border color to light gray */
+    border-radius: 8px; /* Round the corners of inputs */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Change border color when input is focused */
+    outline: none; /* Remove the default outline */
+  }
+  
+  /* Style for the button */
+  button {
+    width: 100%; /* Make the button take full width */
+    padding: 14px; /* Add padding inside the button */
+    background-color: #007bff; /* Set background color to blue */
+    color: white; /* Set text color to white */
+    border: none; /* Remove border */
+    font-size: 18px; /* Set font size */
+    border-radius: 8px; /* Round the corners of the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  /* Style for the result text */
+  #result {
+    margin-top: 20px; /* Add space above the result */
+    font-weight: bold; /* Make the result text bold */
+    font-size: 20px; /* Set font size for the result */
+    color: #333; /* Set text color to dark gray */
+  }
+  

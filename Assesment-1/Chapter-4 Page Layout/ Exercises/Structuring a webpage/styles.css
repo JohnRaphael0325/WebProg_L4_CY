@@ -1,0 +1,102 @@
+/* General Page Style */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family of the page */
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding around the body */
+    font-size: 18px; /* Sets the font size */
+}
+
+/* Header Styling */
+header {
+    background-color: #17072b; /* Sets background color */
+    color: white; /* Sets text color */
+    text-align: center; /* Centers the header text */
+    padding: 30px 0; /* Adds padding to top and bottom */
+    font-family: Tahoma, sans-serif; /* Sets a different font family for the header */
+}
+
+header h1 {
+    margin: 0; /* Removes default margin */
+    font-size: 40px; /* Sets font size */
+    font-weight: 700; /* Makes the text bold */
+    text-decoration: underline; /* Underlines the text */
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding inside the <ul> */
+    display: flex; /* Aligns items horizontally using flexbox */
+    justify-content: center; /* Centers the items horizontally */
+    gap: 40px; /* Adds space between items */
+    margin-top: 20px; /* Adds space above the navigation bar */
+}
+
+nav a {
+    color: white; /* Sets the link text color to white */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 24px; /* Sets font size for the links */
+}
+
+/* Main Area Layout */
+main {
+    display: flex; /* Uses flexbox to align the content and sidebar horizontally */
+    padding: 40px; /* Adds padding inside the <main> section */
+    justify-content: space-between; /* Spaces out the content and sidebar */
+    background-color: white; /* Sets the background color to white */
+}
+
+/* Main Content Section */
+.content {
+    width: 65%; /* Sets the width of the content section */
+    font-size: 20px; /* Sets font size for the content */
+}
+
+.content h2 {
+    font-size: 28px; /* Sets font size for <h2> elements inside the content */
+    text-decoration: underline; /* Underlines the <h2> text */
+}
+
+/* Sidebar Section */
+.sidebar {
+    width: 30%; /* Sets the width of the sidebar */
+    background-color: #172d67; /* Sets the background color of the sidebar */
+    color: white; /* Sets the text color inside the sidebar */
+    padding: 25px; /* Adds padding inside the sidebar */
+    border-radius: 5px; /* Rounds the corners of the sidebar */
+    font-size: 18px; /* Sets the font size of the text inside the sidebar */
+}
+
+.sidebar h2 {
+    padding-bottom: 10px; /* Adds padding below the <h2> inside the sidebar */
+    font-size: 24px; /* Sets the font size of the <h2> inside the sidebar */
+    text-decoration: underline; /* Underlines the <h2> text inside the sidebar */
+}
+
+.sidebar ul {
+    list-style: none; /* Removes bullet points from the list */
+    padding-left: 0; /* Removes padding from the left of the list */
+    line-height: 2; /* Increases line height for better readability */
+    font-size: 18px; /* Sets font size for the list items */
+}
+
+/* Images Inside Sidebar */
+.images {
+    display: flex; /* Aligns images horizontally using flexbox */
+    justify-content: space-between; /* Adds space between images */
+    margin-top: 20px; /* Adds space above the images section */
+}
+
+.images img {
+    width: 48%; /* Sets the width of each image to 48% of the available space */
+    border-radius: 5px; /* Rounds the corners of each image */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8c15e9; /* Sets the background color of the footer */
+    color: white; /* Sets the text color in the footer */
+    text-align: center; /* Centers the footer text */
+    padding: 15px 0; /* Adds padding to top and bottom of the footer */
+    font-size: 18px; /* Sets the font size of the footer text */
+}

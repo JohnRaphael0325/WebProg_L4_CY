@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding: Ensures that the text content is properly displayed with special characters -->
+  <meta charset="UTF-8">
+
+  <!-- Title of the page that appears in the browser tab -->
+  <title>Simple Petrol Calculator</title>
+  
+  <!-- Link to the external CSS file to style the page -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Title banner: Displays the main title of the page -->
+  <div class="banner">
+    Petrol Calculator
+  </div>
+
+  <!-- Calculator box: A container for the input fields and the result output -->
+  <div class="calculator">
+    <!-- Label and input field for the cost per liter -->
+    <label for="costPerLiter">Cost per Liter (£):</label>
+    <input type="number" id="costPerLiter" value="1.72" step="0.01">
+
+    <!-- Label and input field for the liters of petrol purchased -->
+    <label for="liters">Liters Purchased:</label>
+    <input type="number" id="liters" value="0" step="0.01">
+
+    <!-- Button that triggers the calculation function when clicked -->
+    <button onclick="calculateTotal()">Calculate Total</button>
+
+    <!-- Paragraph to display the calculated total amount -->
+    <p id="result">Total (£):</p>
+  </div>
+
+  <!-- JavaScript to calculate the total cost based on user input -->
+  <script>
+    function calculateTotal() {
+      // Get the values entered by the user in the input fields
+      const costPerLiter = parseFloat(document.getElementById('costPerLiter').value);
+      const liters = parseFloat(document.getElementById('liters').value);
+
+      // Calculate the total cost by multiplying cost per liter with the number of liters
+      const total = costPerLiter * liters;
+
+      // Display the total cost in the result paragraph, formatted to two decimal places
+      document.getElementById('result').textContent = `Total: £${total.toFixed(2)}`;
+    }
+  </script>
+
+</body>
+</html>
+<!-- Video Link: https://youtu.be/PjUUL5HUKTA -->

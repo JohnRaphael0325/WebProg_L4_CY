@@ -1,0 +1,16 @@
+/* Style for the whole page */
+body {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full height of the viewport */
+    margin: 0;               /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Style the video player */
+video {
+    width: 640px;           /* Set the video width to match the resolution of the thumbnail */
+    height: 360px;          /* Set the video height to match the resolution of the thumbnail */
+    object-fit: cover;      /* Make sure the video fits within the specified dimensions */
+}
