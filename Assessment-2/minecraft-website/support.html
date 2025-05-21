@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- Declares the document as HTML5 -->
+<html lang="en">
+
+<head>
+  <!-- Sets character encoding to UTF-8 -->
+  <meta charset="UTF-8" />
+
+  <!-- Sets the page title shown in the browser tab -->
+  <title>Support</title>
+
+  <!-- Makes the site mobile-friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links to an external CSS file to style the page -->
+  <link rel="stylesheet" href="style.css" media="screen">
+
+  <!-- Loads the Minecraft font from an online font provider -->
+  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+
+  <!-- Imports the Minecraft font using CSS -->
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+  </style>
+</head>
+
+<!-- The visible content of the page begins here -->
+<body>
+
+  <!-- Top section of the page containing title and navigation -->
+  <header>
+
+    <!-- Main heading of the website -->
+    <h1>Minecraft</h1>
+
+    <!-- Tagline or subheading -->
+    <p>Shape your World.</p>
+
+    <!-- Navigation menu for linking to other pages -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="game.html">Game Overview</a></li>
+        <li><a href="mods.html">Mods</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Main content area of the page -->
+  <main>
+
+    <!-- A specific section for the contact form -->
+    <section class="form">
+
+      <!-- Div for easy styling -->
+      <div class="form-title">
+        <h2>Contact Form</h2>
+      </div>
+
+      <!-- Form for users to submit issues -->
+      <form id="contactForm">
+
+        <!-- Input field for name -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Input field for email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Textarea for user message -->
+        <label for="message">Your Issue:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Send">
+      </form>
+
+      <!-- Message shown after form is submitted -->
+      <p id="formMessage" style="display: none; margin-top: 15px;"></p>
+    </section>
+
+      <!-- Section with two parts shown side by side -->
+      <section class="side-by-side">
+
+        <!-- Left side shows common issues -->
+        <div class="left">
+          <h2>Common Issues</h2>
+          <ul>
+            <li>Game not launching or crashing</li>
+            <li>Can't join multiplayer servers</li>
+            <li>Lag or performance issues</li>
+            <li>Mod installation problems</li>
+          </ul>
+        </div>
+
+        <!-- Right side shows how to fix issues -->
+        <div class="right">
+          <h2>Troubleshooting Tips</h2>
+          <ul>
+            <li>Make sure Java is updated</li>
+            <li>Check your internet connection</li>
+            <li>Update your graphics drivers</li>
+            <li>Remove incompatible or outdated mods</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section for more help options -->
+      <section class="help">
+        <h2>Get More Help</h2>
+
+        <!-- Link to official help page -->
+        <p>Visit the official <a href="https://help.minecraft.net" target="_blank">Minecraft Help Center</a>.</p>
+
+        <!-- Contact email -->
+        <p>Or contact us at: <a href="mailto:support@minecraft.com">support@minecraft.com</a></p>
+      </section>
+
+  </main>
+
+  <!-- Bottom section of the page -->
+  <footer>
+
+    <!-- Copyright notice -->
+    <p>&copy; 2025 Microsoft</p>
+
+  </footer>
+
+  <!-- JS file for form actions -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
+
+
